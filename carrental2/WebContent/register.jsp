@@ -8,7 +8,9 @@
 <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="/css/bootstrap-3.2.0.min.css">
+<link rel="stylesheet" type="text/css" href="/css/font-awesome-4.1.0.min.css">
 </head>
 <body>
 <div class="header-bg">
@@ -90,7 +92,7 @@
  								</div>
 								<div>
  									<span><label>Profil Picture</label></span>
- 									 <td><input type="file" name="profil_image" size="50"/></td>
+ 									 <button><span>Choose file</span></button>
  									
  								</div>
 								<br>

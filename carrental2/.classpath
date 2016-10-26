@@ -14,8 +14,7 @@
 			<attribute name="owner.project.facets" value="jst.jsf"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/User/Desktop/TU3404-installation/javax.faces-2.2.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/User/Desktop/TU3404-installation"/>
+	<classpathentry kind="lib" path="C:/Users/User/Downloads/servlet.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

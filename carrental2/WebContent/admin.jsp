@@ -17,6 +17,13 @@
 <script src="bootstrap/js/superfish.js"></script>
 </head>
 <body>
+
+<%   
+  
+String name=request.getParameter("username");  
+  
+session.setAttribute("username",name);  
+%>
 <div class="header-bg">
 	<div class="wrap">
 		<div class="h-bg">
@@ -27,7 +34,7 @@
 						<a href=""><div class="button-t"><span>Shipping &amp; Returns</span></div></a></li><li class=""><a href=""><div class="button-t"><span>Advanced Search</span></div></a></li><li class="">
 						<a href=""><div class="button-t"><span>CaaA</span></div></a>
 						</li><li class="last">
-						<a href=""><div class="button-t"><span>Log in</span></div></a></li></ul>
+						<a href=""><div class="button-t"><span><%out.print(name); %></span></div></a></li></ul>
 					</div>
 					
 					<div class="header-bot">
